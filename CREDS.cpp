@@ -8,9 +8,8 @@ int main()
     cin>>t;
     while(t--)
     {
-        int a,b;
-        cin>>a>>b;
-        cout<<(a+b)<<endl;;
+        int x,y,z;
+        cin>>x>>y>>z;
+        cout<<((x*4)+(y*2))<<endl;
     }
 }
-

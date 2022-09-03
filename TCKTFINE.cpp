@@ -8,9 +8,9 @@ int main()
     cin>>t;
     while(t--)
     {
-        int a,b;
-        cin>>a>>b;
-        cout<<(a+b)<<endl;;
+        int x,p,q;
+        cin>>x>>p>>q;
+        cout<<((p-q)*x)<<endl;
     }
-}
 
+}
